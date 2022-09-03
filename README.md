@@ -39,3 +39,27 @@ There are four types of employees in the company Omega.
 
 Each employee will have a Fullname.
 
+# Requirements
+
+You are asked to create a console application to create a report on detailed payment for all of the employees in the company for a specific month.
+
+Name your project: **EmployeeSalary**
+
+That month's information is stored in the file named **"November2021.txt"**. You can hard code the content like this
+
+```c++
+DailyEmployee: John Walker
+   DailyPayment=100$; TotalDays=28
+DailyEmployee: Lyndsea Carlie
+   DailyPayment=120$; TotalDays=10
+HourlyEmployee: Rachyl Napier
+   HourlyPayment=15$; TotalHours=1200
+ProductEmployee: Romaine Donna
+   PaymentPerProduct=10$; TotalProducts=180
+ProductEmployee: Peter Abram
+   PaymentPerProduct=11$; TotalProducts=150
+Manager: Clarinda Hyram
+   FixedPayment=500$; TotalEmployees=5; PaymentPerEmployee=100$
+```
+- [ ]  Read the file
+- [ ]  Print out all the employees' information and the final payment for each employee.
